@@ -1,0 +1,88 @@
+/* header style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(225, 227, 230);
+ }
+ header{    
+     margin: -10px -10px 0px -10px;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     background-image: linear-gradient(to top right, rgb(89, 0, 255),rgb(0, 76, 255));
+ }
+ header a{
+     text-decoration: none;
+     color: rgb(233, 223, 223);
+     margin-left: 50px;
+     font-size: 20px;
+     font-weight: 700;
+ }
+ header a:hover{
+     color: white;
+ }
+ .main-header{
+     margin-top: 30px;
+     margin-left: 100px;
+     
+ }
+ .user-part{
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 40%;
+    color: rgb(212, 209, 209);
+    cursor: pointer;
+ }
+ .user-part a{
+     margin-right: 20px;
+ }
+ .user-part:hover{
+     color: rgb(255, 255, 255);
+ }
+  /* bloggers part */
+
+.container{
+    margin:100px 10% 0 10% ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 20px rgb(187, 187, 187);
+    
+   
+}
+.container h1{
+    font-size: 30px;
+    margin: px 50px 0 10px;
+}
+
+.afridi-sec img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+.afridi-sec{
+    box-shadow: 2px 2px 20px rgb(236, 230, 230);
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-left: 60px;
+    text-align: center;  
+ 
+}
+.afridi-sec h1{
+    font-size: 30px;
+    color: rgb(27, 10, 255);
+}
+.afridi-sec:hover{
+    box-shadow: 2px 2px 20px rgb(158, 158, 158);
+    transform: scale(1.05);
+    transition: transform .5s;
+
+}
+.common-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+}
